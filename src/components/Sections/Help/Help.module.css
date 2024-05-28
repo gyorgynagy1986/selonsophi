@@ -1,0 +1,86 @@
+.section {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1550px) {
+  .section {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.textContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 50%;
+  color: #efede7;
+}
+
+.textContainer div {
+  padding-top: 3rem;
+  width: 90%;
+}
+
+.textContainer h2 {
+  font-size: max(calc(35px + 2.5vw), 50px);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 100.82px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1550px) {
+  .textContainer h2 {
+    font-size: max(calc(30px + 2.5vw), 50px);
+    line-height: 78.82px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .textContainer h2 {
+    font-size: max(calc(40px + 3vw), 50px);
+    line-height: 120.82px;
+  }
+
+  .textContainer div {
+    padding-top: 6rem;
+  }
+}
+
+.textContainer div p {
+  font-size: max(calc(8px + 0.7vw), 16px);
+  margin-bottom: 1rem;
+}
+
+.longText {
+  font-weight: 300;
+}
+
+.titleText {
+  font-weight: 500;
+}

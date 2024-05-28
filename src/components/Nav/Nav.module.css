@@ -1,0 +1,39 @@
+.navcontainer {
+  padding: var(--paddingContainer);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 95px;
+  border-bottom: 1.5px solid #70675f;
+}
+
+.ul {
+  display: flex;
+  gap: 20px;
+}
+
+.li {
+  font-size: 16px;
+  font-size: var(--fsLi);
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: -0.07em;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #efede7;
+  font-size: 16px;
+  background: transparent;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.07em;
+  text-align: center;
+  color: #efede7;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: -0.07em;
+  text-align: center;
+}
