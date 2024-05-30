@@ -21,9 +21,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
-  min-width: 100%;
-}
+  max-width: 1300px;}
+
+
 
 .textContainer {
   display: flex;
@@ -57,3 +57,17 @@
 
 
 
+.qu1 {
+  position: absolute;
+  top: 3vw;
+  left:  5vw;
+  max-width: 70px;
+}
+
+.qu2 {
+  position: absolute;
+  bottom: 3vw;
+  right: 5vw;
+  max-width: 70px;
+
+}

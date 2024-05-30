@@ -20,7 +20,7 @@ const Hero = () => {
       <p className={Style.p}>
         “A jóga gyakorlása által sikerült maradéktalanul megérkeznem a jelenbe.”
       </p>
-      <Image className={Style.image} src={Heroimage} alt={hero.name} />
+      <Image priority className={Style.image} src={Heroimage} alt={hero.name} />
     </section>
   );
 };

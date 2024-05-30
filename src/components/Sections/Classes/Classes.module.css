@@ -1,0 +1,59 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow: hidden;
+  }
+  
+  .photoContainer {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width:1800px) {
+    .photoContainer {
+        height: 500px;
+
+      }
+        
+}
+
+  .photoContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.textContainer {
+    text-align: center;
+}
+
+.textContainer h2 {
+    text-align: center;
+    color: #FFFF;
+    font-size: calc(14px + 1vw);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.textContainer p {
+    font-size: calc(8px + .7vw);
+   color: #FFFF;
+   font-weight: 300;
+   line-height: 150%;
+}
+
+
+
+   

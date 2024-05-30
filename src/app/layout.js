@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer/Footer";
 
 const mosnstreat = Montserrat({
   subsets: ["latin"],
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="hu">
-      <body className={mosnstreat.className}>{children}</body>
+      <body className={mosnstreat.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
